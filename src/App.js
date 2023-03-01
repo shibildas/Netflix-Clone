@@ -1,4 +1,8 @@
-import Counter from "./Counter";
+import React from "react";
+import NavBar from "./Components/Navbar/NavBar";
+import "./App.css"
+import Banner from "./Components/Banner/Banner";
+import RowPost from "./Components/RowPost/RowPost";
 
 
 function App() {
@@ -6,7 +10,9 @@ function App() {
   return (
     <div className="App">
 
-    <h1> show/hide</h1>
+    <NavBar/>
+    <Banner/>
+    <RowPost/>
 
     </div>
   );
